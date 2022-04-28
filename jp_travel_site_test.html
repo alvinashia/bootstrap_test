@@ -27,6 +27,8 @@
 
         opacity: 0.3;
 
+
+        
     }
 
     .background {
@@ -91,7 +93,7 @@
         <div class=" text-center ">
             <div class="position-relative ">
             <div class="hover_effect">
-                <div class="background">
+                <div class="background overflow-hidden "  style="max-height: 800px;">
                     <!-- <div class="position-relative"> -->
                         <div id="carouselExampleControls" class="carousel slide  min-vw-100" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -132,9 +134,10 @@
                         <button class="btn-dark btn-lg mt-2 animate__animated animate__zoomIn btn_effect">了解更多</button>
                     </div>
                 </div>
-                <div class=" position-absolute p-5 d-block d-lg-none "
-                style="top: 250px; color: rgb(255, 255, 255); text-shadow: 10px;">
-                <h1 class="animate__animated animate__zoomIn display-2 ">開始探索吧！</h1>
+                <div class=" position-absolute p-5 d-none d-sm-block d-lg-none "
+                style="top: 150px; color: rgb(255, 255, 255); text-shadow: 10px;">
+                <h1 class="animate__animated animate__zoomIn display-4 ">開始探索吧！</h1>
+                <!-- d-block 會影響是否會出現 如果要xx以上取消就是用d-lg-none  -->
             </div>
             <div class="p-5">
                 <div class="container ">
